@@ -1,0 +1,211 @@
+:root {
+    --white: #fff;
+    --dark-blue: #274c70;
+    --sky:   #8c9bc133;
+    --text: #212c30;;
+    --button: #f6f4ffb8;
+    --border-radius: 50px;
+    --folder: beige;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+  header {
+    display:flex;
+    border:solid;
+    border-color: var(--dark-blue);
+    padding: 10px;
+    text-align: center;
+    background-color: var(--sky);
+    color: var(--white);
+    margin: 0px;
+    
+  }
+
+  h1 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    margin:auto;
+    color:var(--text);
+
+  }
+
+  main {
+    display:flex;
+    flex-direction: row;
+    padding: 40px;
+    flex-wrap: wrap
+  }
+
+  .allProjects {
+    font-family: 'Hanken Grotesk', sans-serif;
+    float:right;
+    background-color: var(--button);
+    color:var(--text);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height:30px;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-right: 5px;
+    margin-bottom:10px;
+  }
+
+  img.headShot {
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-left:20px;
+}
+button {
+  font-weight: bold;
+
+}
+div.featured {
+  float: center;
+  width: 1000px;
+  padding: 10px;
+  margin-inline: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: var(--sky);
+  color: var(--text);
+  font-family: 'Hanken Grotesk', sans-serif;
+  border-radius: 10px;
+  border:solid;
+}
+
+div.folder {
+  font-family: 'Hanken Grotesk', sans-serif;
+  display:flex;
+  line-height: 180%;
+  padding-top: 50px;
+  padding-right: 30px;
+  margin: 50px; 
+  height: 500px;
+  background-color: var(--folder);
+  border-radius: 15px;
+  border: solid;
+  border-color: black;
+}
+
+section.tab {
+  background-color: var(--folder);
+  line-height: 110%;
+  flex-wrap:nowrap ;
+  width:400px;
+  height:20px;
+  position: relative;
+  padding: 8px;
+  border:solid;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  left: 35px;
+  top:-89px;
+}
+
+img.folder {
+  border:solid;
+  position:relative;
+  font-size: 200%;
+  max-width: 220px;
+  height: 150px;
+  border-radius: 10px;
+  left:-70px;
+  top:25px;
+}
+li {
+  line-height: 200%;
+}
+
+footer {
+    display:flex;
+    border:solid;
+    border-color: var(--dark-blue);
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background: var(--sky);
+    color: var(--white);
+    margin: 0px;
+    height: 60px;
+}
+.email {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight:bold;
+  position: relative;;
+  flex-direction: column;
+  background-color: var(--button);
+  color:var(--text);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height:30px;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-right: 5px;
+  margin-bottom:10px;
+  bottom: 20px;
+  right: -47px;
+}
+.linkedin {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: bold;
+  position: relative;
+  flex-direction: column;
+  background-color: var(--button);
+  color:var(--text);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height:30px;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-right: 5px;
+  margin-bottom:10px;
+  top: 12px;
+  right: 25px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.folder {
+    width: 70%;
+    height:auto;
+  }
+  section.tab {
+    display:none;
+  }
+  img.folder {
+    border:solid;
+    position:relative;
+    font-size: 200%;
+    max-width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    left:20px;
+    top:25px;
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 790px) {
+  div.folder {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  section.tab {
+    display:none;
+  }
+  img.folder {
+    border:solid;
+    position:relative;
+    font-size: 200%;
+    max-width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top:-25px;
+  }
+}
