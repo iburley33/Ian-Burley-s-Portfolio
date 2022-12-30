@@ -82,7 +82,8 @@ div.folder {
   padding-top: 50px;
   padding-right: 30px;
   margin: 50px; 
-  height: 500px;
+  min-height: 500px;
+  height: auto;
   background-color: var(--folder);
   border-radius: 15px;
   border: solid;
