@@ -78,7 +78,7 @@ section.tab {
   background-color: var(--folder);
   line-height: 110%;
   flex-wrap:nowrap ;
-  width:400px;
+  min-width:200px;
   height:20px;
   position: relative;
   padding: 8px;
@@ -97,7 +97,7 @@ img.folder {
   max-width: 220px;
   height: 150px;
   border-radius: 10px;
-  left:-70px;
+  left:-120px;
   top:25px;
 }
 img.folderA {
@@ -107,7 +107,7 @@ img.folderA {
   max-width: 260px;
   height: 200px;
   border-radius: 10px;
-  left:-70px;
+  left:-120px;
   top:25px;
 }
 li {
