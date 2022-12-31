@@ -45,10 +45,6 @@ img.headShot {
     border-radius: 10px;
     margin-left:20px;
 }
-button {
-  font-weight: bold;
-
-}
 div.featured {
   float: center;
   width: 1000px;
@@ -133,23 +129,26 @@ footer {
 .email {
   font-family: 'Hanken Grotesk', sans-serif;
   font-weight:bold;
+  text-align: center;
   position: relative;
   flex-direction: column;
   background-color: var(--button);
   color:var(--text);
   padding-top: 5px;
   padding-bottom: 5px;
+  min-width: 70px;
   height:30px;
   border-radius: 10px;
   margin-top: auto;
   margin-right: 5px;
   margin-bottom:10px;
   bottom: 3px;
-  right: -47px;
+  left: 54px;
 }
 .linkedin {
   font-family: 'Hanken Grotesk', sans-serif;
   font-weight: bold;
+  text-align: center;
   position: relative;
   flex-direction: column;
   background-color: var(--button);
@@ -157,6 +156,7 @@ footer {
   padding-top: 5px;
   padding-bottom: 5px;
   height:30px;
+  min-width: 70px;
   border-radius: 10px;
   margin-top: auto;
   margin-right: 5px;
@@ -168,17 +168,19 @@ footer {
   font-family: 'Hanken Grotesk', sans-serif;
   font-weight: bold;
   position: relative;
+  flex-direction: column;
   background-color: var(--button);
   color:var(--text);
   padding-top: 5px;
   padding-bottom: 5px;
+  min-width: 90px;
   height:30px;
   border-radius: 10px;
   margin-top: auto;
   margin-right: 5px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   top: 85px;
-  right: -88px;
+  left: 95px;
 }
 .allProjects {
   font-family: 'Hanken Grotesk', sans-serif;
@@ -188,6 +190,7 @@ footer {
   color:var(--text);
   padding-top: 5px;
   padding-bottom: 5px;
+  min-width: 90px;
   height:30px;
   border-radius: 10px;
   margin-top: auto;
